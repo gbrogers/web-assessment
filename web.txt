@@ -1,0 +1,28 @@
+How does the internet works?
+
+The internet can be a very mystical thing. For many it can feel completely intangible (including me). 
+This week, I have been tasked with making this intangible item more tangible and I would like to share what I have learned regarding what the internet is. 
+I have learned that the internet is just one huge network of computers/servers/machines that are all linked together and can communicate. 
+I like to think of the internet similarily to a water system. The internet is a structural system (of physical cords) that connect computers together. 
+To get water from one location to another, you need to connect pipes, just like the computers need to be connected to communicate.
+However, if I have even five tubes that need water and need to pass water to each of the other tubes, I would need each tube to have 4 pipes
+built in and already that is turning messy with pipes everywhere. Now imagine if I needed four billion (random number) tubes to moves water between eachother! Not ideal.
+This is why we have something called routers. Routers are kind of like little hubs that bring the internet (or water in my analogy) 
+to a location so that all the computers (or tubs) can go through that local hub to communicate, rather and having to individually connect with every computer(tub). 
+The router hub will then communicate to other routers that are hubs for different locations, making the communication between the crazy number of computers in the world a lot more streamlined. 
+However, there are still a lot of routers out there and so the next item that helps streamline these communications are ISP (internet service providers). 
+The networks of routers in an area will connect at ISPs. There are a lot of computers out there so how do we keep them straight? You need to make sure 
+the info you are sending/requesting is coming/going to the correct location. To solve this, each computer is given an IP address. IP addresses are a series 
+of numbers that we as humans aren't very good at memorizing for all the sites we want to visit, therefore each address also has a domain name (like jambajuice.com) 
+so we can more easily access our favorite sites.
+
+What happens when you click a link?
+
+When you click a link, the first thing that happens is that your system or browser starts working on figuring out what you clicked. The domain nam system (DNS) 
+will look to match the domain name on the link to the IP address.Your DNS will look for the domain name in your local cache in order to match it with the IP address for that domain name.
+If it is not in your local cache (search history on that device), DNS will then look to the local router (conatining all devices using that router). 
+If the domain name has not been used on any of the devices that are connected to that router before, then the DNS will look to the ISP.
+If no routers on the ISP have any devices that have used that domain name before, the DNS will go to the root DNS servers to grab the matching IP address. 
+The machine will then connect to that IP address through the port specified on the link (or default 80 for http and 443 for https) according to the http protocol. 
+If there is a resource on the url, then the user will be brought to that specific location.
+

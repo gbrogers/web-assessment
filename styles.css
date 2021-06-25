@@ -1,0 +1,131 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+.fun-facts {
+  background-color: yellow;
+  height: 50px;
+  width: 155px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#personal-profile {
+  font-size: 20px;
+  color: rgb(56, 55, 55);
+  font-weight: 400;
+}
+.read-more-btn {
+  background-color: hotpink;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 30px;
+  float: right;
+}
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.contact-btn {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+#random-restaurant {
+  background-color: hotpink;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+}
+
+#google {
+  display: inline;
+}
+#a-friend {
+  display: inline;
+}
+#other {
+  display: inline;
+}
+#submit {
+  background-color: hotpink;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(130, 0, 61);
+  font-weight: 900;
+}
+h1 {
+  letter-spacing: 0.2em;
+  background-color: rgb(253, 223, 228);
+  margin: 0;
+  padding: 30px;
+}
+
+#chunk {
+  background-color: rgb(252, 198, 206);
+  margin: 0px;
+  padding: 30px 50px 50px 50px;
+  border-bottom: 2px solid orange;
+}
+header {
+  border-bottom: 2px solid orange;
+}
+#profile-items {
+  background-color: rgb(225, 243, 248);
+  margin: 0;
+  padding: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 440px;
+}
+#profile {
+  display: inline;
+  height: 50px;
+
+  align-self: center;
+  justify-self: right;
+}

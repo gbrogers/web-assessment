@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Hello World</h1>
+      <!-- insert hello world here -->
+      <p>Welcome to this lovely webpage!</p>
+
+      <img
+        id="home-image"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cute-kittens-12929201-1600-1200.jpg/800px-Cute-kittens-12929201-1600-1200.jpg"
+      />
+      <div>
+        <ul>
+          <li>You are intelligent.</li>
+          <li>You are kind.</li>
+          <li>You are you.</li>
+        </ul>
+      </div>
+      <h2>Contact Us</h2>
+
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        How did you hear of us?<br />
+        <label for="google">Google:</label
+        ><input type="checkbox" id="google" value="google" /><br />
+        <label for="a-friend">A friend:</label
+        ><input type="checkbox" id="a-friend" value="a friend" /><br />
+        <label for="pther">Other:</label
+        ><input type="checkbox" id="other" value="other" /><br />
+
+        <input type="submit" id="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
